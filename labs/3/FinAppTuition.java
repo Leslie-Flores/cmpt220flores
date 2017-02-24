@@ -1,7 +1,7 @@
 // File: FinAppTuition.java
 // Author: Leslie Flores
 // Course: CMPT220
-// Assignment: FinAppTuition
+// Assignment: Problem 5.7
 // Due date: February 23rd, 2017
 // Version 1.0
 
@@ -19,6 +19,7 @@ public class FinAppTuition {
 			}			
         }	
 		System.out.println("Tuition in ten years: $" + tuition10);
-		System.out.println("Total cost for four years after the tenth year: $" + total);
+		System.out.println("Total cost for four years after the "
+		+ "tenth year: $" + total);
 	}
 }

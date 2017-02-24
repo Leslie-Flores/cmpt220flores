@@ -1,7 +1,7 @@
 // File: CountPosNeg.java
 // Author: Leslie Flores
 // Course: CMPT220
-// Assignment: CountPosNeg
+// Assignment: Problem 5.1
 // Due date: February 23rd, 2017
 // Version 1.0
 
@@ -13,7 +13,7 @@ public class CountPosNeg {
 		int pos = 0, neg = 0, count = 0;
 		double total = 0, average;
 		
-		System.out.print("Enter an integer, the input ends if it is 0: ");
+		System.out.print("Enter an integer (ends if it is 0): ");
 	    int number = input.nextInt();
 
 		do {
