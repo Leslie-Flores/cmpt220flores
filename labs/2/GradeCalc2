@@ -1,6 +1,0 @@
-import java.util.Scanner;
-
-public class GradeCalc2 {
-  public static void main (String[] args){
-  }
-}

@@ -1,6 +1,9 @@
-// Leslie Flores
-// February 7th, 2017
-// Find the numbers of the days in a month
+// File: DaysOfMonth.java
+// Author: Leslie Flores
+// Course: CMPT220
+// Assignment: Find the numbers of the days in a month (Lab 2)
+// Due date: February 23rd, 2017
+// Version 1.0
 
 import java.util.Scanner;
 

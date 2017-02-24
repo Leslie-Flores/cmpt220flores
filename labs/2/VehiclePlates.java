@@ -1,6 +1,9 @@
-// Leslie Flores
-// February 21st, 2017
-// Generate vehicle plate numbers
+// File: VehiclePlates.java
+// Author: Leslie Flores
+// Course: CMPT220
+// Assignment: Generate vehicle plate numbers (Lab 2)
+// Due date: February 23rd, 2017
+// Version 1.0
 
 public class VehiclePlates{
 	public static void main (String[] args){

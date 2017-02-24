@@ -1,6 +1,9 @@
-// Leslie Flores
-// February 21st, 2017
-// Financial Application: Monetary units
+// File: FinanceApp.java
+// Author: Leslie Flores
+// Course: CMPT220
+// Assignment: Financial Application - Monetary units (Lab 2)
+// Due date: February 23rd, 2017
+// Version 1.0
 
 import java.util.Scanner;
 
@@ -20,10 +23,10 @@ public class FinanceApp{
 		cents %= 5;
 
 		System.out.println("Your amount " + amount + " consists of\n " 
-			+ numberOfOneDollars + " dollars\n " 
-			+ numberOfQuarters + " quarters\n "
-			+ numberOfDimes + " dimes\n "
-			+ numberOfNickels + " nickels\n "
+			+ oneDollars + " dollars\n " 
+			+ quarters + " quarters\n "
+			+ dimes + " dimes\n "
+			+ nickels + " nickels\n "
 			+ cents + " pennies\n "
 			);
 	}

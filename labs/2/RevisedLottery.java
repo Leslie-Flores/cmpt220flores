@@ -1,6 +1,9 @@
-// Leslie Flores
-// February 8th, 2017
-// Revised Lottery Game
+// File: RevisedLottery.java
+// Author: Leslie Flores
+// Course: CMPT220
+// Assignment: Revised Lottery
+// Due date: February 9th, 2017
+// Version 2.0
 
 import java.util.Scanner;
 

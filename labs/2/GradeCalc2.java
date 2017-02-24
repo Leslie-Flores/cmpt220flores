@@ -1,6 +1,9 @@
-// Leslie Flores
-// February 6th, 2017
-// Grade Calculator Assignment 2
+// File: GradeCalc2.java
+// Author: Leslie Flores
+// Course: CMPT220
+// Assignment: Grade Calculator 2
+// Due date: February 9th, 2017
+// Version 2.0
 
 import java.util.Scanner;
 
@@ -16,7 +19,8 @@ public class GradeCalc2 {
       int proGrade = input.nextInt();
       System.out.print("Homework and Labs: ");
       int hwlabGrade = input.nextInt();
-      double rawGrade = (midGrade * 0.20) + (finGrade * 0.20) + (proGrade * 0.20) + (hwlabGrade * 0.40);
+      double rawGrade = (midGrade * 0.20) + (finGrade * 0.20) 
+	    + (proGrade * 0.20) + (hwlabGrade * 0.40);
 	  
 	  if (rawGrade >= 95){
 		  System.out.println("Your final grade is: A");

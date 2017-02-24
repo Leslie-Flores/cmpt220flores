@@ -1,6 +1,9 @@
-// Leslie Flores
-// February 21st, 2017
-// Phone key pads
+// File: PhoneKeyPad.java
+// Author: Leslie Flores
+// Course: CMPT220
+// Assignment: Phone Key Pad (Lab 2)
+// Due date: February 23rd, 2017
+// Version 1.0
 
 import java.util.Scanner;
 

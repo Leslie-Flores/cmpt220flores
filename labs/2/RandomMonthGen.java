@@ -1,6 +1,9 @@
-// Leslie Flores
-// February 7th, 2017
-// Random Month Generator
+// File: RandomMonthGen.java
+// Author: Leslie Flores
+// Course: CMPT220
+// Assignment: Random Month Generators
+// Due date: February 9th, 2017
+// Version 1.0
 
   public class RandomMonthGen {
     public static void main (String[] args) {

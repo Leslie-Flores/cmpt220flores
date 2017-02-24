@@ -1,6 +1,9 @@
-// Leslie Flores
-// February 21st, 2017
-// Guess birthday rewrite
+// File: GuessBirthday.java
+// Author: Leslie Flores
+// Course: CMPT220
+// Assignment: Guess birthday rewrite
+// Due date: February 9th, 2017
+// Version 1.0
 
 import java.util.Scanner;
 

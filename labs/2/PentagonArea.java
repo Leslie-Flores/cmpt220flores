@@ -1,6 +1,9 @@
-// Leslie Flores
-// February 8th, 2017
-// Geometry: finding the area of a Pentagon
+// File: PentagonArea.java
+// Author: Leslie Flores
+// Course: CMPT220
+// Assignment: Pentagon Area
+// Due date: February 9th, 2017
+// Version 1.0
 
 import java.util.Scanner;
 
