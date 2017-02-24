@@ -1,6 +1,9 @@
-// Leslie Flores
-// February 22nd, 2017
-// Financial app for tuition after 10 years
+// File: FinAppTuition.java
+// Author: Leslie Flores
+// Course: CMPT220
+// Assignment: FinAppTuition
+// Due date: February 23rd, 2017
+// Version 1.0
 
 public class FinAppTuition {
 	public static void main(String[] args) {

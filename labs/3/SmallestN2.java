@@ -1,6 +1,9 @@
-// Leslie Flores
-// February 22nd, 2017
-// Find that smallest n that is greater than 12000
+// File: SmallestN2.java
+// Author: Leslie Flores
+// Course: CMPT220
+// Assignment: SmallestN2
+// Due date: February 23rd, 2017
+// Version 1.0
 
 public class SmallestN2 {
 	public static void main(String[] args) {

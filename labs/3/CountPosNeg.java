@@ -1,6 +1,9 @@
-// Leslie Flores
-// February 22nd, 2017
-// Count Positive and Negative numbers together
+// File: CountPosNeg.java
+// Author: Leslie Flores
+// Course: CMPT220
+// Assignment: CountPosNeg
+// Due date: February 23rd, 2017
+// Version 1.0
 
 import java.util.Scanner;
 

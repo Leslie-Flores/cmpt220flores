@@ -1,6 +1,9 @@
-// Leslie Flores
-// February 22, 2017
-// Find the largest n
+// File: LargestN3.java
+// Author: Leslie Flores
+// Course: CMPT220
+// Assignment: LargestN3
+// Due date: February 23rd, 2017
+// Version 1.0
 
 public class LargestN3 {
 	public static void main(String[] args) {
