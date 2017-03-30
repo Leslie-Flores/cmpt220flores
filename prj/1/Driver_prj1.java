@@ -3,29 +3,30 @@
 // Course: CMPT220
 // Assignment: Making a Convolution (Project 1)
 // Due date: March 30th, 2017
-// Version 0.1
+// Version 0.2
 
 import java.util.Scanner;
 
 public class Driver_prj1 {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
-		int[] vFirst = new int[input.nextInt()];
+		double[] vFirst = new double[input.nextDouble()];
+    double[] vSecond = new double[input.nextDouble()];
     System.out.println();
-    int[] vSecond = new int[input.nextInt()];
-    System.out.println();
-    for (int i = 0; i < vFirst.length; i++) {
-			vFirst[i] = input.nextInt();
+    for (double i = 0; i < vFirst.length; i++) {
+			vFirst[i] = input.nextDouble();
     }
-    System.out.println();
-    for (int i = 0; i < vSecond.length; i++) {
-			vSecond[i] = input.nextInt();
+    for (double i = 0; i < vSecond.length; i++) {
+			vSecond[i] = input.nextDouble();
     }
+    System.out.println(vResult);
   }
 
   public static double[] convolveVectors(double[] vFirst, double[] vSecond) {
     double[] vResult = new double[(vFirst.length + vSecond.length) - 1];
-    // write your code here
+    for (double i = 0; i < vFirst.length; i--){
+      // Insert code here
+    }
 
     return vResult;  
   }
