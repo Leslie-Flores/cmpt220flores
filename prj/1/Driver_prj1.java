@@ -3,7 +3,7 @@
 // Course: CMPT220
 // Assignment: Making a Convolution (Project 1)
 // Due date: March 30th, 2017
-// Version 1.5
+// Version 2.0
 
 import java.util.Scanner;
 
@@ -22,9 +22,9 @@ public class Driver_prj1 {
     for (int i = 0; i < svs; i++) // checking for the length of vSecond
       vSecond[i] = input.nextDouble();
 
-    double[] vector = convolveVectors(vFirst, vSecond); // Where a double/int conversion issue occurs
+    double[] vector = convolveVectors(vFirst, vSecond); // Where the vectors are combined 
     
-    for (int i = 0; i < vector.length; i++) // Doesn't work due to issue lised above
+    for (int i = 0; i < vector.length; i++) // combines numbers before printing them out below
       System.out.print(Math.round(vector[i]) + " "); // prints out the answers to project 1
   }
 
