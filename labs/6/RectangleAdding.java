@@ -1,4 +1,4 @@
-// File: RectangleAdding.png
+// File: RectangleAdding.java
 // Author: Leslie Flores
 // Course: CMPT220
 // Assignment: Also in junction with Exercise 9.1
