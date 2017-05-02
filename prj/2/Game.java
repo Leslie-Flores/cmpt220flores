@@ -1,19 +1,21 @@
 // Leslie Flores
-// Last Updated: April 25th, 2017
+// Last Updated: May 2nd, 2017
 // Life of a Syrian Refugee: The Journey
 
 import java.util.Scanner;
+import java.util.ArrayList;
 
 public class Game{
   private static Scanner scanner = new Scanner(System.in);
 	public static void main (String[] args){
     Scanner input = new Scanner(System.in);
     String playerLoc;
+    String currLoc;
+    String locDesc;
     int playerScore;
     int score = 5;
     String intro = "Welcome to Life of a Syrian Refugee: The Journey. \n"
-                 + "This is version 0.2 of this game so there will be updates. \n";
-                 
+                 + "This is version 1.0 of this game, but there will be updates. \n";
     System.out.println(intro);
     System.out.print("What is your name? ");
     String name = scanner.nextLine();
@@ -25,7 +27,7 @@ public class Game{
                 + "He reassures them that they'll be okay when the house shakes. \n"
                 + "After the shaking stops, the Ali family realizes their home was destroyed. \n"
                 + "Now, with no home, the family has to leave or risk dying from the dangers. \n";
-    String pressEnter = "\n Please press Enter to continue. ";
+    String pressEnter = "\n Press Enter to continue. ";
     String hometown = "After a restless night, " + name + " packs their remaining belongings. \n"
                     + "Aisha made sure to have their children ready to go and looks at her husband. \n"
                     + name + " is worried about the troubles they'll encounter and their safety. \n"
@@ -47,7 +49,7 @@ public class Game{
                + "After much bargaining with the smuggler, " + name + " manages to get them on the last boat. \n"
                + "As they leave, he takes one last look at his country that he has known his entire life. \n";
     String boat = "The boat is rather poorly built and clearly has not been maintained in recent years. \n"
-                + "However, after much praying, the boat still remains intact despite it's shape. \n"
+                + "However, after much praying, the boat still remains intact despite its shape. \n"
                 + "There's a storm nearby and it makes the waters very choppy and everyone seasick. \n"
                 + name + "'s family stick together and are not thrown off the boat by the storm. \n"
                 + "Soon enough, the storm clears and land is seen in the horizon much to their relief. \n";
@@ -58,76 +60,97 @@ public class Game{
                 + "But that doesn't happen as they take everyone to a refugee camp. \n";
     String youWon = "Congrats! You have made it to Turkey! Good job and thanks for playing! \n";
     String copyright = "Copyright: 2017, Leslie Flores, leslie.flores1@marist.edu";
-  
-    System.out.print(home);
+ 
+    locDesc = home;
+    currLoc = "Destroyed Home";
+    
+    System.out.print(locDesc);
     playerScore = 0;
-    playerLoc = "Destroyed Home";
-    System.out.print("\n Score: " + playerScore);
+    playerLoc = currLoc;
+    System.out.println("\n Score: " + playerScore);
     System.out.println("\n Location: " + playerLoc);
     System.out.print(pressEnter);
     String enter = scanner.nextLine();
     System.out.println();
     isAlive = true;
 
-    System.out.print(hometown);
+    locDesc = hometown;
+    currLoc = "Destroyed Hometown";
+    
+    System.out.print(locDesc);
     playerScore += score;
-    playerLoc = "Destroyed Hometown";
-    System.out.print("\n Score: " + playerScore);
+    playerLoc = currLoc;
+    System.out.println("\n Score: " + playerScore);
     System.out.println("\n Location: " + playerLoc);
     System.out.print(pressEnter);
     String enter2 = scanner.nextLine();
     System.out.println();
     isAlive = true;
     
-    System.out.print(checkpoint);
+    locDesc = checkpoint;
+    currLoc = "Military Checkpoint";
+    
+    System.out.print(locDesc);
     playerScore += score;
-    playerLoc = "Checkpoint";
-    System.out.print("\n Score: " + playerScore);
+    playerLoc = currLoc;
+    System.out.println("\n Score: " + playerScore);
     System.out.println("\n Location: " + playerLoc);
     System.out.print(pressEnter);
     String enter3 = scanner.nextLine();
     System.out.println();
     isAlive = true;
     
-    System.out.print(village);
+    locDesc = village;
+    currLoc = "Christian Village";
+    
+    System.out.print(locDesc);
     playerScore += score;
-    playerLoc = "Village";
-    System.out.print("\n Score: " + playerScore);
+    playerLoc = currLoc;
+    System.out.println("\n Score: " + playerScore);
     System.out.println("\n Location: " + playerLoc);
     System.out.print(pressEnter);
     String enter4 = scanner.nextLine();
     System.out.println();
     isAlive = true;
     
-    System.out.print(sea);
+    locDesc = sea;
+    currLoc = "Mediterranean Sea";
+    
+    System.out.print(locDesc);
     playerScore += score;
-    playerLoc = "Mediterranean Sea";
-    System.out.print("\n Score: " + playerScore);
+    playerLoc = currLoc;
+    System.out.println("\n Score: " + playerScore);
     System.out.println("\n Location: " + playerLoc);
     System.out.print(pressEnter);
     String enter5 = scanner.nextLine();
     System.out.println();
     isAlive = true;
     
-    System.out.print(boat);
+    locDesc = boat;
+    currLoc = "Dinghy at sea";
+    
+    System.out.print(locDesc);
     playerScore += score;
-    playerLoc = "Dinghy";
-    System.out.print("\n Score: " + playerScore);
+    playerLoc = currLoc;
+    System.out.println("\n Score: " + playerScore);
     System.out.println("\n Location: " + playerLoc);
     System.out.print(pressEnter);
     String enter6 = scanner.nextLine();
     System.out.println();
     isAlive = true;
     
-    System.out.print(land);
+    locDesc = land;
+    currLoc = "Turkish shoreline";
+    
+    System.out.print(locDesc);
     playerScore += score;
-    playerLoc = "Turkey";
-    System.out.print("\n Final Score: " + playerScore);
+    playerLoc = currLoc;
+    System.out.println("\n Final Score: " + playerScore);
     System.out.println("\n Final Location: " + playerLoc);
     System.out.println();
-    System.out.print(youWon);
     isAlive = true;
     
+    System.out.print(youWon);
     System.out.println(copyright);
 	}
 }
