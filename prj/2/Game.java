@@ -1,12 +1,13 @@
-// Leslie Flores
-// Last Updated: May 2nd, 2017
-// Life of a Syrian Refugee: The Journey
+// File: Game.java
+// Author: Leslie Flores
+// Course: CMPT220
+// Assignment: Life of a Syrian Refugee: The Journey
+// Due date: May 4th, 2017
+// Version 1.1
 
 import java.util.Scanner;
-import java.util.ArrayList;
 
 public class Game{
-  private static Scanner scanner = new Scanner(System.in);
 	public static void main (String[] args){
     Scanner input = new Scanner(System.in);
     String playerLoc;
@@ -15,21 +16,21 @@ public class Game{
     int playerScore;
     int score = 5;
     String intro = "Welcome to Life of a Syrian Refugee: The Journey. \n"
-                 + "This is version 1.0 of this game, but there will be updates. \n";
+                 + "This is version 1.1 of this game. \n";
     System.out.println(intro);
     System.out.print("What is your name? ");
-    String name = scanner.nextLine();
+    String name = input.nextLine();
     System.out.println();
     boolean isAlive = true;
     
-    String home = name + " Ali wakes up to the sound of loud bombing nearby. \n"
-                + "His wife, Aisha, and their two children are now awake, huddling. \n"
+    String home = name + " Rivas wakes up to the sound of loud bombing nearby. \n"
+                + "His wife, Nancy, and their two children are now awake, huddling. \n"
                 + "He reassures them that they'll be okay when the house shakes. \n"
-                + "After the shaking stops, the Ali family realizes their home was destroyed. \n"
+                + "After the shaking stops, the Rivas family realizes their home was destroyed. \n"
                 + "Now, with no home, the family has to leave or risk dying from the dangers. \n";
     String pressEnter = "\n Press Enter to continue. ";
     String hometown = "After a restless night, " + name + " packs their remaining belongings. \n"
-                    + "Aisha made sure to have their children ready to go and looks at her husband. \n"
+                    + "Nancy made sure to have their children ready to go and looks at her husband. \n"
                     + name + " is worried about the troubles they'll encounter and their safety. \n"
                     + "After realizing that most of their neighbors are dead, they set off carefully. \n"
                     + name + " takes one look back at his destroyed hometown before departing. \n";
@@ -39,8 +40,8 @@ public class Game{
                       + name + "'s heart sinks when he realizes that it's a military checkpoint. \n"
                       + "Taking another route bypassing the check, the family avoids trouble. \n";
     String village = "After a few days of heading westward to Turkey, the family is really tired. \n"
-                   + "Aisha is a couple months pregnant and is clearly really tired of this walk. \n"
-                   + "They soon come across a village, which is clearly Christian, making Hasan worried. \n"
+                   + "Nancy is a couple months pregnant and is clearly really tired of this walk. \n"
+                   + "They soon come across a village, which is clearly Christian, making " + name + " worried. \n"
                    + "However, the family finds that the villagers are welcoming and lets them rest. \n"
                    + "After a goodnight's sleep, the family bids them farewell and sets off again. \n";
     String sea = "Now more than halfway there, the family soon comes across a port city in view. \n"
@@ -56,7 +57,7 @@ public class Game{
     String land = "The land that everyone saw turns out to be Turkey and they are not that far to it. \n"
                 + "Everyone celebrates and " + name + " sighs in relief that his family will be safe. \n"
                 + "They encounter the Turkish coastal guard who sees them and takes them to shore. \n"
-                + name + "'s nervous that they'll send everyone back to Turkey as he's seen before. \n"
+                + name + "'s nervous that they'll send everyone back to Syria as he's seen before. \n"
                 + "But that doesn't happen as they take everyone to a refugee camp. \n";
     String youWon = "Congrats! You have made it to Turkey! Good job and thanks for playing! \n";
     String copyright = "Copyright: 2017, Leslie Flores, leslie.flores1@marist.edu";
@@ -70,7 +71,7 @@ public class Game{
     System.out.println("\n Score: " + playerScore);
     System.out.println("\n Location: " + playerLoc);
     System.out.print(pressEnter);
-    String enter = scanner.nextLine();
+    String enter = input.nextLine();
     System.out.println();
     isAlive = true;
 
@@ -83,7 +84,7 @@ public class Game{
     System.out.println("\n Score: " + playerScore);
     System.out.println("\n Location: " + playerLoc);
     System.out.print(pressEnter);
-    String enter2 = scanner.nextLine();
+    String enter2 = input.nextLine();
     System.out.println();
     isAlive = true;
     
@@ -96,7 +97,7 @@ public class Game{
     System.out.println("\n Score: " + playerScore);
     System.out.println("\n Location: " + playerLoc);
     System.out.print(pressEnter);
-    String enter3 = scanner.nextLine();
+    String enter3 = input.nextLine();
     System.out.println();
     isAlive = true;
     
@@ -109,7 +110,7 @@ public class Game{
     System.out.println("\n Score: " + playerScore);
     System.out.println("\n Location: " + playerLoc);
     System.out.print(pressEnter);
-    String enter4 = scanner.nextLine();
+    String enter4 = input.nextLine();
     System.out.println();
     isAlive = true;
     
@@ -122,7 +123,7 @@ public class Game{
     System.out.println("\n Score: " + playerScore);
     System.out.println("\n Location: " + playerLoc);
     System.out.print(pressEnter);
-    String enter5 = scanner.nextLine();
+    String enter5 = input.nextLine();
     System.out.println();
     isAlive = true;
     
@@ -135,7 +136,7 @@ public class Game{
     System.out.println("\n Score: " + playerScore);
     System.out.println("\n Location: " + playerLoc);
     System.out.print(pressEnter);
-    String enter6 = scanner.nextLine();
+    String enter6 = input.nextLine();
     System.out.println();
     isAlive = true;
     
